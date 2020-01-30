@@ -16,7 +16,7 @@ Dentro del workspace container ejecutar:
 Dentro de la carpeta laradock:
 - Aca hay que hacer unas cosas locas por culpa de los permisos de acceso de mysql:
 10. ``` nano laradock/mysql/my.cnf ``` (agregar a lo ultimo esto: ``` default_authentication_plugin=mysql_native_password ```)
-11. ``` docker-compose exec mysql bash ````
+11. ``` docker-compose exec mysql bash ```
 12. (contaseña mysql root es root)
 ```
 root@c2772502897c:/# mysql -u root -p
