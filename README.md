@@ -30,9 +30,9 @@ mysql> exit
 root@c2772502897c:/# exit
 ```
 - Reseteamos los contenedores para que tome los cambios:
-11. ``` docker-compose down ```
-12. ``` docker-compose up -d nginx mysql ```
+13. ``` docker-compose down ```
+14. ``` docker-compose up -d nginx mysql ```
 Realizamos las migrañas:
-13. ``` docker-compose exec workspace bash ```
-14. ``` artisan migrate ```
-15. Profit.
+15. ``` docker-compose exec workspace bash ```
+16. ``` artisan migrate ```
+17. Profit.
